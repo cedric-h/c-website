@@ -31,9 +31,10 @@ command:
 
 note: `cpp` is "C Preprocessor," comes with GCC installs.
 
+-P inhibits the output of linemarkers, which may be useful for debugging complicated macros. (please do not make complicated macros)
+
 it is noted [here](https://accu.org/journals/overload/20/108/ignatchenko_1926) that `cl \P \EP` works to accomplish this with MSVC.
 
--P inhibits the output of linemarkers, which may be useful for debugging complicated macros. (please do not make complicated macros)
 
 ## `index.html` (output)
 ```html
